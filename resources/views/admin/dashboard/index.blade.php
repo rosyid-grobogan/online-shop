@@ -1,5 +1,5 @@
-@extends('admin.layouts.admin-master')
+@extends('admin.layouts.master')
 @section('title', 'Online Shope - Admin Dashboard')
 @section('content')
-    <p>Dashboard</p>
+ <p>Dashboard</p>
 @endsection

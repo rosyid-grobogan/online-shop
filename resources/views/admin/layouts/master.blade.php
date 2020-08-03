@@ -19,7 +19,7 @@
   <link href="{{ asset('admin/assets/plugins/daterangepicker/daterangepicker.css') }}" rel="stylesheet" />
   <link href="{{ asset('admin/assets/plugins/toastr/toastr.min.css') }}" rel="stylesheet" />
   <!-- SLEEK CSS -->
-  <link id="sleek-css" rel="stylesheet" href="{{ url('admin/assets/css/sleek.css') }}" />
+  <link rel="stylesheet" href="{{ asset('admin/assets/css/sleek.css') }}" />
   <!-- FAVICON -->
   <link href="{{ asset('admin/assets/img/favicon.png') }}" rel="shortcut icon" />
   <!--
@@ -30,7 +30,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script src="{{ asset('template/assets/plugins/nprogress/nprogress.js') }}"></script>
+  <script src="{{ asset('admin/assets/plugins/nprogress/nprogress.js') }}"></script>
 </head>
 <body class="header-fixed sidebar-fixed sidebar-dark header-light" id="body">
   <script>
@@ -38,7 +38,6 @@
     NProgress.start();
   </script>
 
-  <div id="toaster"></div>
 <div class="wrapper">
         <!-- Left Sidebar -->
         @include('admin.partials.left-sidebar')
