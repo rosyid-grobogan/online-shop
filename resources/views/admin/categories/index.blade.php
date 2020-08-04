@@ -23,7 +23,7 @@
                                     <td>{{ $category->id }}</td>
                                     <td>{{ $category->name }}</td>
                                     <td>{{ $category->slug }}</td>
-                                    <td>{{ $category->parent_id }}</td>
+                                    <td>{{ $category->parent_id ? $category->parent->name : '(Parent)' }}</td>
                                     <td>
                                         <a href="{{ url('admin/categories/'.$category->id . '/edit') }}" class="btn btn-warning btn-sm">Edit</a>
 

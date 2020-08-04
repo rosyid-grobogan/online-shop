@@ -3,9 +3,13 @@
 -   [Sleek Dashboard](https://github.com/tafcoder/sleek-dashboard)
 -   [Laravel Collective](https://laravelcollective.com/)
 
-## Categories
+## Categories Management
 
--   Membuat Halaman Daftar Kategori
--   Membuat Form Create dan Update Kategori
--   Membuat Fitur Delete Kategori
--   Validasi Form, Flash Message, Pagination, Confirm Dialog
+-   Menampilkan daftar kategori
+-   Membuat Create kategori
+-   Membuat Update kategori
+-   Membuat Delete kategori
+-   Validasi Form
+-   Flash Message
+-   Confirm Dialog
+-   Pagination

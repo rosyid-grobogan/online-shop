@@ -27,7 +27,7 @@
 <script src="{{ asset('admin/assets/plugins/toastr/toastr.min.js') }}"></script>
 <script src="{{ asset('admin/assets/js/sleek.bundle.js') }}"></script>
 <script>
-		$(".delete").on("submit", function () {
-			return confirm("Do you want to remove this?");
-		});
+    $(".delete").on("submit", function () {
+        return confirm("Do you want to remove this?");
+    });
 </script>
